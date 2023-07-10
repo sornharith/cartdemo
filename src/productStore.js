@@ -52,3 +52,35 @@ const getproductData = (id) =>{
 }
 
 export { productsArray , getproductData };
+// import React, { useState, useEffect } from 'react';
+// const productsArray = MyComponent;
+
+// export function MyComponent() {
+//   const [DAta, setData] = useState([]);
+//   // const productArray = [];
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await fetch('/cart/add/{product_id}'); // Replace with your FastAPI server URL
+//         const { data } = await response.json();
+//         setData(data);
+//       } catch (error) {
+//         console.error('Error fetching data:', error);
+//       }
+//     };
+
+//     fetchData();
+//   }, []);
+//   return DAta;
+// }
+// function getproductdata(id){
+//   const aray = MyComponent.DAta;
+//     let productData = aray.find(product => product.id === id)
+//     if(productData === undefined){
+//         console.log("Sorry we dont have this " + id);
+//         return undefined;
+//     }
+//     return productData;
+// }
+// export { productsArray,getproductdata };

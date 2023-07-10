@@ -12,6 +12,7 @@ const ProductCard = (prop) =>{ // props.product mean product we are selling
             <Card.Body>
                 <Card.Title>{product.name}</Card.Title>
                 <Card.Text>{product.price}</Card.Text>
+                <Card.Text>{product.quantity}</Card.Text>
                 { productQuantity > 0 ?
                     <>
                         <Form as={Row}>
